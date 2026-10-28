@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | MBB Training & Development</title>
+  <meta name="description" content="Get in touch with MBB Training & Development.">
+  <meta name="theme-color" content="#37399b">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Poppins:wght@500&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__bar">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">
+        <img src="assets/img/logo.png" width="80" height="80" alt="MBB Training &amp; Development — home">
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="site-search" action="blog.html" method="get" role="search">
+        <label class="visually-hidden" for="site-search-q">Search</label>
+        <input id="site-search-q" name="q" type="search" placeholder="Search..." autocomplete="off">
+        <button type="submit" aria-label="Search">
+          <img class="icon-desktop" src="assets/img/icon-search.png" width="55" height="54" alt="">
+          <img class="icon-mobile" src="assets/img/icon-search-blue.png" width="22" height="22" alt="">
+        </button>
+      </form>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+        <img src="assets/img/icon-menu.png" width="26" height="26" alt="">
+        <span class="visually-hidden">Menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <img class="page-hero__img" src="assets/img/hero-contact.png" width="1728" height="475" alt="Colleagues collaborating around laptops">
+  <h1 class="page-hero__title">Contact</h1>
+</section>
+
+<a class="map" href="https://www.google.com/maps/place/Harare,+Zimbabwe" target="_blank" rel="noopener">
+  <img src="assets/img/map-harare.png" width="768" height="340" alt="Map of Harare, Zimbabwe">
+  <span class="map__link">Open in Google Maps</span>
+</a>
+<section class="contact" aria-labelledby="contact-title">
+  <div class="frame">
+    <div class="contact__info">
+      <p class="tag">GET IN TOUCH</p>
+      <h2 class="display" id="contact-title">Contact us for furthur information !</h2>
+      <p class="lead">We have created corporate value for State, Private and international organizations, enabling and equipping them to meet modern-day Organisational Development and Strategic business challenges and ensuring the successful implementation and completion of organisation development projects</p>
+      <p class="contact__follow">Follow Us On Social Media...</p>
+      <a class="contact__social" href="#" aria-label="Facebook"><img src="assets/img/icon-facebook-lg.png" width="60" height="60" alt=""></a>
+      <div class="info-card">
+        <span class="info-card__icon"><img src="assets/img/icon-email.png" width="90" height="90" alt=""></span>
+        <div>
+          <p class="info-card__label">Our email address:</p>
+          <a class="info-card__value" href="mailto:company@domain.com">company@domain.com</a>
+        </div>
+      </div>
+      <div class="info-card">
+        <span class="info-card__icon"><img src="assets/img/icon-phone.png" width="90" height="90" alt=""></span>
+        <div>
+          <p class="info-card__label">Office phone number :</p>
+          <a class="info-card__value" href="tel:+977123456755">(+977)-1234-567-55</a>
+        </div>
+      </div>
+    </div>
+    <form class="contact-form" action="#" method="post" data-mock="Contact" data-success="Thank you — your message has been sent. We’ll be in touch soon.">
+        <div class="field">
+          <label for="name">Your Name...</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <span class="field__error" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="email">Your Email...</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <span class="field__error" aria-live="polite"></span>
+        </div>
+        <div class="field">
+          <label for="message">Your Message...</label>
+          <textarea id="message" name="message" required></textarea>
+          <span class="field__error" aria-live="polite"></span>
+        </div>
+      <button class="btn btn--heavy" type="submit">SUBMIT MESSAGE</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="frame site-footer__main">
+    <section class="site-footer__about" aria-labelledby="footer-about">
+      <h2 id="footer-about">About Our Company</h2>
+      <p>Porta lorem tempora fugit potenti hendrerit numquam morbi pede risus, incidunt facilisis labore, nec dis minim</p>
+      <form class="newsletter" action="#" method="post" data-mock="Newsletter" data-success="Thanks for signing up!">
+        <label class="visually-hidden" for="newsletter-email">Your email address</label>
+        <input id="newsletter-email" name="email" type="email" placeholder="Your Email Address..." autocomplete="email" required>
+        <button type="submit">SIGN UP</button>
+      </form>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </section>
+    <nav class="site-footer__links" aria-labelledby="footer-useful">
+      <h2 id="footer-useful">USEFUL LINKS</h2>
+      <ul class="plain-list">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Careers</a></li>
+        <li><a href="blog.html">News &amp; Articles</a></li>
+        <li><a href="#">Legal Notice</a></li>
+      </ul>
+    </nav>
+    <nav class="site-footer__links" aria-labelledby="footer-support">
+      <h2 id="footer-support">SUPPORT</h2>
+      <ul class="plain-list">
+        <li><a href="contact.html">Help Center</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Parent Community</a></li>
+      </ul>
+    </nav>
+    <section class="site-footer__contact" aria-labelledby="footer-contact">
+      <h2 id="footer-contact">CONTACT INFO</h2>
+      <p>Give Us A Call !</p>
+      <p>PHONE: <a href="tel:+263772231556"><strong>+263772231556</strong></a></p>
+      <p>TEL: <strong>+263 (242)744324 ; 783093, 08677102863</strong></p>
+      <p>Have A Project In Mind ?</p>
+      <p><a class="site-footer__email" href="mailto:mbbconsultancy.zw@gmail.com">mbbconsultancy.zw@gmail.com</a></p>
+    </section>
+  </div>
+  <div class="site-footer__bar">
+    <div class="frame">
+      <ul class="socials plain-list" aria-label="Social media">
+        <li><a href="#" aria-label="Facebook"><img src="assets/img/social-facebook.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="Instagram"><img src="assets/img/social-instagram.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="LinkedIn"><img src="assets/img/social-linkedin.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="X (Twitter)"><img src="assets/img/social-x.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="TikTok"><img src="assets/img/social-tiktok.png" width="36" height="36" alt=""></a></li>
+      </ul>
+      <a class="site-footer__logo" href="index.html"><img src="assets/img/logo-footer.png" width="63" height="63" alt="MBB Training &amp; Development"></a>
+      <p class="site-footer__copy">Copyright © <span data-year>2026</span>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

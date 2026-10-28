@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | MBB Training & Development</title>
+  <meta name="description" content="Recent MBB Training & Development projects in development, recruitment and training.">
+  <meta name="theme-color" content="#37399b">
+  <link rel="icon" type="image/png" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Poppins:wght@500&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="site-header__bar">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">
+        <img src="assets/img/logo.png" width="80" height="80" alt="MBB Training &amp; Development — home">
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="site-search" action="blog.html" method="get" role="search">
+        <label class="visually-hidden" for="site-search-q">Search</label>
+        <input id="site-search-q" name="q" type="search" placeholder="Search..." autocomplete="off">
+        <button type="submit" aria-label="Search">
+          <img class="icon-desktop" src="assets/img/icon-search.png" width="55" height="54" alt="">
+          <img class="icon-mobile" src="assets/img/icon-search-blue.png" width="22" height="22" alt="">
+        </button>
+      </form>
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+        <img src="assets/img/icon-menu.png" width="26" height="26" alt="">
+        <span class="visually-hidden">Menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main" class="portfolio-page">
+<section class="page-hero">
+  <img class="page-hero__img" src="assets/img/hero-portfolio.png" width="1728" height="475" alt="Team meeting led by a consultant">
+  <h1 class="page-hero__title">Portfolio</h1>
+</section>
+
+<section class="portfolio portfolio--page" aria-label="Recent projects">
+  <div class="frame">
+  <div class="filters" data-filters aria-controls="page-portfolio-grid" aria-label="Filter projects">
+    <button type="button" data-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-filter="development" aria-pressed="false">Development</button>
+    <button type="button" data-filter="recruitment" aria-pressed="false">Recruitment</button>
+    <button type="button" data-filter="training" aria-pressed="false">Training</button>
+  </div>
+  <div class="portfolio-grid" id="page-portfolio-grid">
+    <div class="portfolio-grid__col">
+      <figure class="portfolio-item portfolio-item--sm" data-category="development" style="--o:1"><img src="assets/img/portfolio-1.png" width="316" height="286" alt="Panel at a health workforce event" loading="lazy"></figure>
+      <figure class="portfolio-item portfolio-item--lg" data-category="training" style="--o:4"><img src="assets/img/portfolio-4.png" width="429" height="535" alt="Facilitator addressing a training session" loading="lazy"></figure>
+    </div>
+    <div class="portfolio-grid__col">
+      <figure class="portfolio-item portfolio-item--lg" data-category="development" style="--o:2"><img src="assets/img/portfolio-2.png" width="429" height="535" alt="Speaker presenting the Productive Health Workforce programme" loading="lazy"></figure>
+      <figure class="portfolio-item portfolio-item--sm" data-category="recruitment" style="--o:5"><img src="assets/img/portfolio-5.png" width="316" height="286" alt="Team photo outside the office" loading="lazy"></figure>
+    </div>
+    <div class="portfolio-grid__col">
+      <figure class="portfolio-item portfolio-item--sm" data-category="recruitment" style="--o:3"><img src="assets/img/portfolio-3.png" width="316" height="286" alt="Delegates at A Healthy Nation: A Productive Nation" loading="lazy"></figure>
+      <figure class="portfolio-item portfolio-item--lg" data-category="training" style="--o:6"><img src="assets/img/portfolio-6.png" width="429" height="535" alt="Facilitator leading a workshop discussion" loading="lazy"></figure>
+    </div>
+  </div>
+  </div>
+</section>
+<section aria-label="Company achievements">
+  <div class="frame facts">
+  <h2 class="rule-heading">Company achievements &amp; facts</h2>
+  <ul class="facts__grid plain-list">
+    <li class="fact">
+      <span class="fact__icon"><img src="assets/img/icon-people.png" width="90" height="90" alt=""></span>
+      <p class="fact__num">25K+</p>
+      <p class="fact__label">Happy Customers</p>
+    </li>
+    <li class="fact">
+      <span class="fact__icon"><img src="assets/img/icon-trophy.png" width="90" height="90" alt=""></span>
+      <p class="fact__num">12+</p>
+      <p class="fact__label">Award Achieved</p>
+    </li>
+    <li class="fact">
+      <span class="fact__icon"><img src="assets/img/icon-office.png" width="90" height="90" alt=""></span>
+      <p class="fact__num">80+</p>
+      <p class="fact__label">Office Branch</p>
+    </li>
+    <li class="fact">
+      <span class="fact__icon"><img src="assets/img/icon-business-group.png" width="90" height="90" alt=""></span>
+      <p class="fact__num">50+</p>
+      <p class="fact__label">Experienced Staff</p>
+    </li>
+  </ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="frame site-footer__main">
+    <section class="site-footer__about" aria-labelledby="footer-about">
+      <h2 id="footer-about">About Our Company</h2>
+      <p>Porta lorem tempora fugit potenti hendrerit numquam morbi pede risus, incidunt facilisis labore, nec dis minim</p>
+      <form class="newsletter" action="#" method="post" data-mock="Newsletter" data-success="Thanks for signing up!">
+        <label class="visually-hidden" for="newsletter-email">Your email address</label>
+        <input id="newsletter-email" name="email" type="email" placeholder="Your Email Address..." autocomplete="email" required>
+        <button type="submit">SIGN UP</button>
+      </form>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </section>
+    <nav class="site-footer__links" aria-labelledby="footer-useful">
+      <h2 id="footer-useful">USEFUL LINKS</h2>
+      <ul class="plain-list">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Careers</a></li>
+        <li><a href="blog.html">News &amp; Articles</a></li>
+        <li><a href="#">Legal Notice</a></li>
+      </ul>
+    </nav>
+    <nav class="site-footer__links" aria-labelledby="footer-support">
+      <h2 id="footer-support">SUPPORT</h2>
+      <ul class="plain-list">
+        <li><a href="contact.html">Help Center</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Parent Community</a></li>
+      </ul>
+    </nav>
+    <section class="site-footer__contact" aria-labelledby="footer-contact">
+      <h2 id="footer-contact">CONTACT INFO</h2>
+      <p>Give Us A Call !</p>
+      <p>PHONE: <a href="tel:+263772231556"><strong>+263772231556</strong></a></p>
+      <p>TEL: <strong>+263 (242)744324 ; 783093, 08677102863</strong></p>
+      <p>Have A Project In Mind ?</p>
+      <p><a class="site-footer__email" href="mailto:mbbconsultancy.zw@gmail.com">mbbconsultancy.zw@gmail.com</a></p>
+    </section>
+  </div>
+  <div class="site-footer__bar">
+    <div class="frame">
+      <ul class="socials plain-list" aria-label="Social media">
+        <li><a href="#" aria-label="Facebook"><img src="assets/img/social-facebook.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="Instagram"><img src="assets/img/social-instagram.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="LinkedIn"><img src="assets/img/social-linkedin.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="X (Twitter)"><img src="assets/img/social-x.png" width="36" height="36" alt=""></a></li>
+        <li><a href="#" aria-label="TikTok"><img src="assets/img/social-tiktok.png" width="36" height="36" alt=""></a></li>
+      </ul>
+      <a class="site-footer__logo" href="index.html"><img src="assets/img/logo-footer.png" width="63" height="63" alt="MBB Training &amp; Development"></a>
+      <p class="site-footer__copy">Copyright © <span data-year>2026</span>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
